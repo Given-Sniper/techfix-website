@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechFix Laptop Repair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>TechFix Laptop Repair</h1>
+</header>
+
+<nav>
+    <div class="nav-container">
+        <span class="logo-text">TechFix</span>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Fast & Reliable Laptop Repairs</h2>
+        <p>We fix screens, remove viruses, and recover your data — quickly and affordably in Polokwane.</p>   
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section class="features">
+        <h2>Why Choose TechFix?</h2>
+        <div class="features-grid">
+
+            <div class="feature-card">
+                <h3><span class="icon">⚡</span> Fast Turnaround</h3>
+                <p>Most repairs are completed within 24 to 48 hours so you are never without your laptop for long.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3><span class="icon">💰</span> Affordable Prices</h3>
+                <p>We offer honest and transparent pricing with no hidden fees. You always know what you are paying.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3><span class="icon">🔒</span> Your Data is Safe</h3>
+                <p>We treat your personal data with full confidentiality and care during every repair.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home-image">
+        <img src="images/repair.jpg" alt="Technician repairing a laptop">
+    </section>
+
+</main>
+
+
+<footer>
+    <p>© 2026 TechFix Laptop Repair</p>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</footer>
+
+<script>
+    function toggleMenu() {
+        const navLinks = document.getElementById('navLinks');
+        navLinks.classList.toggle('open');
+    }
+</script>
+
+</body>
+</html>

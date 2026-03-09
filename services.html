@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechFix Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>TechFix Laptop Repair</h1>
+</header>
+
+<nav>
+    <div class="nav-container">
+        <span class="logo-text">TechFix</span>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <!-- PAGE INTRO -->
+    <section class="page-intro">
+        <h2>Our Services</h2>
+        <p>We provide professional laptop repair services for students, businesses, and home users in Polokwane.</p>
+    </section>
+
+    <!-- SERVICE CARDS -->
+    <section class="services-grid">
+
+        <div class="service-card">
+            <span class="service-icon">🖥️</span>
+            <h3>Laptop Repair</h3>
+            <p>We repair hardware problems such as broken screens, keyboards, and batteries. We get your laptop back to perfect working condition.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="service-icon">🦠</span>
+            <h3>Virus Removal</h3>
+            <p>We remove viruses and malware to make your laptop safe and fast again. We also install protection to prevent future infections.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="service-icon">💾</span>
+            <h3>Data Recovery</h3>
+            <p>Lost important files? We help recover your data from damaged laptops or hard drives quickly and safely.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="service-icon">⚙️</span>
+            <h3>Software Installation</h3>
+            <p>We install and set up operating systems, drivers, and software so your laptop runs smoothly from day one.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="service-icon">🔋</span>
+            <h3>Battery Replacement</h3>
+            <p>Is your battery draining too fast? We replace old batteries with quality replacements to restore your laptop's battery life.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="service-icon">🧹</span>
+            <h3>Laptop Cleaning</h3>
+            <p>Dust and dirt slow your laptop down. We do full internal cleaning to keep your laptop cool and running at full speed.</p>
+        </div>
+
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="cta">
+        <h2>Ready to fix your laptop?</h2>
+        <p>Contact us today and we will get it sorted as quickly as possible.</p>
+        <a href="contact.html" class="btn">Contact Us</a>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 TechFix Laptop Repair</p>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</footer>
+
+<script>
+    function toggleMenu() {
+        const navLinks = document.getElementById('navLinks');
+        navLinks.classList.toggle('open');
+    }
+</script>
+
+</body>
+</html>
